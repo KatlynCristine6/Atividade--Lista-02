@@ -78,3 +78,19 @@ fun main() {
     println("A área do quadrado é igual: $area")
     
 }
+
+## 05-
+
+fun main() {
+
+    println("Digite a base do triângulo:")
+    val base = readLine()!!.toDouble()  
+    
+    println("Digite a altura do triângulo:")
+    val altura = readLine()!!.toDouble()
+    
+    var area = base * altura / 2
+
+    println("A área do triângulo é igual: $area")
+    
+}
