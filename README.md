@@ -94,3 +94,22 @@ fun main() {
     println("A área do triângulo é igual: $area")
     
 }
+
+## 19-
+
+fun main() {
+
+    println("Digite o comprimento da caixa retangular:")
+    val comprimento = readLine()!!.toDouble()  
+    
+    println("Digite a largura da caixa retangular:")
+    val largura = readLine()!!.toDouble()
+    
+    println("Digite a altura da caixa retangular:")
+    val altura = readLine()!!.toDouble()
+    
+    var volume = comprimento * largura * altura 
+
+    println("O volume da caixa retangular é igual: $volume centímetros cúbicos")
+    
+}
