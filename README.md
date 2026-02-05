@@ -65,3 +65,16 @@ fun main() {
     println("Multiplicação: $multiplicacao")
     println("Divisão: $divisao")
 }
+
+## 04-
+
+fun main() {
+
+    println("Digite o lado do quadrado:")
+    val lado_quadrado = readLine()!!.toDouble()  
+    
+    val area = lado_quadrado * lado_quadrado
+
+    println("A área do quadrado é igual: $area")
+    
+}
