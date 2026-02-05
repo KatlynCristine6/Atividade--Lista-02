@@ -1,7 +1,9 @@
 # Atividade--Lista-02
 
 ## 01-
+
 fun main() {
+
     // Solicita o primeiro número
     print("Digite o primeiro número: ")
     val primeiroNumero = readLine()?.toIntOrNull()
