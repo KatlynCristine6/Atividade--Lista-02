@@ -23,3 +23,26 @@ fun main() {
         println("Erro: por favor, digite apenas números válidos.")
     }
 }
+
+## 02-
+
+fun main() {
+
+    // Solicita o primeiro nome
+    print("Digite o primeiro nome: ")
+    val primeiroNome = readLine()  
+
+    // Solicita o segundo nome
+    print("Digite o segundo nome: ")
+    val segundoNome = readLine()  
+    
+   
+    if (primeiroNome != null && segundoNome != null) {
+      
+        val resultado = primeiroNome + " " + segundoNome
+
+        println("Nome completo: $resultado")
+    } else {
+        println("Erro: você não digitou um nome válido.")
+    }
+}
