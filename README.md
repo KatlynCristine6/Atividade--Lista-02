@@ -46,3 +46,22 @@ fun main() {
         println("Erro: você não digitou um nome válido.")
     }
 }
+
+## 03-
+
+fun main() {
+
+    println("Digite o primeiro número:")
+    val primeiroNumero = readLine()!!.toDouble()  
+
+    println("Digite o segundo número:")
+    val segundoNumero = readLine()!!.toDouble()  
+
+    val subtracao = primeiroNumero - segundoNumero
+    val multiplicacao = primeiroNumero * segundoNumero
+    val divisao = primeiroNumero / segundoNumero
+
+    println("Subtração: $subtracao")
+    println("Multiplicação: $multiplicacao")
+    println("Divisão: $divisao")
+}
