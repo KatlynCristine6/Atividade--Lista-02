@@ -96,9 +96,9 @@ fun main() {
 }
 
 ## 16-
-
+```
 fun main() {
-   
+
 println("ano_nascimento")
 val ano_nascimento = readLine()!!.toDouble()
 println("ano_atual")
@@ -118,7 +118,7 @@ print("Idade em dias: ${idade_dias}")
 print("Idade em semanas: ${idade_semanas}")
 
 }
-
+```
 ## 19-
 
 fun main() {
