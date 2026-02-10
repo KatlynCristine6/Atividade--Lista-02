@@ -127,7 +127,21 @@ fun main() {
 
 }
 ```
+## 07-
+```
+fun main() {
 
+    val diasTotais = readln().toInt()
+
+    val anos = diasTotais / 365
+    val restoAnos = diasTotais % 365
+
+    val meses = restoAnos / 30
+    val dias = restoAnos % 30
+
+    println("Sua idade em anos é " + anos + ", sua idade em meses " + meses + ", sua idade em dias é " + dias)
+}
+```
 
 ## 08-
 ```
