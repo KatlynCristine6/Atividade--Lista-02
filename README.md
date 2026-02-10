@@ -95,6 +95,38 @@ fun main() {
     
 }
 ```
+
+## 06-
+```
+fun main() {
+
+    val peso = 45
+
+    val altura = 1.56
+
+    val imc = peso / (altura * altura)
+
+    if (imc < 18.5){
+        print(" $imc = Peso baixo")
+    }
+
+    else if(imc > 18.5){
+        print(" $imc = Peso normal")
+
+    }
+
+    else if(imc > 25){
+
+        print(" $imc = Sobrepeso")
+    }
+
+    else if(imc >30){
+
+        print(" $imc = Obesidade")
+    } 
+
+}
+```
 ## 07-
 
 ```
