@@ -97,7 +97,6 @@ fun main() {
 
 ## 16-
 
-16-
 fun main() {
    
 println("ano_nascimento")
