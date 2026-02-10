@@ -274,6 +274,17 @@ var novo_salario = (salario_mensal + aumento)
 println("O novo salário do funcionário é: $novo_salario")
 }
 ```
+## 15-
+```
+fun main() {
+
+    val salario = readln().toDouble()
+    val percentual = readln().toDouble()
+    var novo_salario = salario * (1 + percentual / 100)
+    print("O novo salario é:" + novo_salario)
+
+}
+```
 ## 16-
 ```
 fun main() {
