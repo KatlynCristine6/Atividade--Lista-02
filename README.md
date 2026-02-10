@@ -171,3 +171,18 @@ var valor_real = valor_dolar * cotacao
 println("Valor em real: $valor_real (considerando a cotação de 5.24")
 }
 ```
+## 25-
+25-
+```
+fun main() {
+   
+println("Digite um numero inteiro")
+val numero_i = readLine()!!.toDouble()
+
+var antecessor = numero_i - 1
+var sucessor = numero_i + 1
+   
+print("O antecessor de ${numero_i} é ${antecessor}")
+print("O sucessor de ${numero_i} é ${sucessor}")
+}
+```
