@@ -172,7 +172,6 @@ println("Valor em real: $valor_real (considerando a cotação de 5.24")
 }
 ```
 ## 25-
-25-
 ```
 fun main() {
    
