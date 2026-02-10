@@ -193,6 +193,23 @@ fun main() {
     
 }
 
+## 20-
+```
+fun main() {
+    println("Digite um valor:")
+    val A = readLine()!!.toDouble()
+
+    println("Digite outro valor:")
+    val B = readLine()!!.toDouble()
+
+    var quadrado_A = ( A * A )
+    var quadrado_B = ( B * B )
+    
+    var resultado = (quadrado_A - quadrado_B) 
+
+    println("O resultado do quadrado da diferença do primeiro valor em relação ao segundo é de: $resultado")
+}
+```
 ## 21-
 ```
 fun main() {
