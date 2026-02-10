@@ -158,6 +158,22 @@ print("Resto em gramas: ${resto_g}")
 }
 ```
 
+## 18-
+```
+fun main() {
+    println("Digite um valor:")
+    var A = readLine()!!.toDouble()
+
+    println("Digite outro valor:")
+    var B = readLine()!!.toDouble()
+
+    val troca = A
+    A = B
+    B = troca
+
+    println("Após a troca - a = $A, b = $B")
+}
+```
 ## 19-
 
 fun main() {
