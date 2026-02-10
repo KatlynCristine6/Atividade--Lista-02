@@ -114,6 +114,23 @@ print("A média final é: ${media}")
 
 }
 ```
+## 14-
+```
+fun main() {
+
+println("Digite o salário_mensal:")
+val salario_mensal = readLine()!!.toDouble() 
+println("Digite a porcentagem de aumento:")
+val porcentagem_aumento = readLine()!!.toDouble()
+
+var aumento = salario_mensal * (porcentagem_aumento / 100)
+
+var novo_salario = (salario_mensal + aumento)
+
+
+println("O novo salário do funcionário é: $novo_salario")
+}
+```
 ## 16-
 ```
 fun main() {
