@@ -114,6 +114,27 @@ print("A média final é: ${media}")
 
 }
 ```
+
+## 17-
+```
+fun main() {
+    print("Digite o primeiro número: ")
+    val A = readLine()?.toIntOrNull() ?: 0
+
+    print("Digite o segundo número: ")
+    val B = readLine()?.toIntOrNull() ?: 0
+
+    print("Digite o terceiro número: ")
+    val C = readLine()?.toIntOrNull() ?: 0
+
+    val R = (A + B) * (A + B)
+    val S = (B + C) * (B + C)
+
+    val D = (R + S) / 2
+
+    print("D = $D")
+}
+```
 ## 14-
 ```
 fun main() {
