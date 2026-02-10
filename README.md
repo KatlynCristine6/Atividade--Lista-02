@@ -139,7 +139,7 @@ fun main() {
 }
 
 ## 21-
-'''
+```
 fun main() {
 println("Digite um valor em dólar para aa conversão:")
 val valor_dolar = readLine()!!.toDouble()  
@@ -150,4 +150,4 @@ val cotacao = readLine()!!.toDouble()
 var valor_real = valor_dolar * cotacao
 println("Valor em real: $valor_real (considerando a cotação de 5.24")
 }
-'''
+```
