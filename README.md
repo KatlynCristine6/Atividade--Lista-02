@@ -160,6 +160,21 @@ fun main() {
     print("O resultado da média é: $media_final")
 }
 ```
+## 09-
+```
+fun main() {
+
+    val tempoSegundos = readln().toDouble()
+
+    val horas = tempoSegundos / 3600
+    val restoHoras = tempoSegundos % 3600
+
+    val minutos = restoHoras / 60
+    val segundos = restoHoras % 60
+
+    print("Em horas são: " + horas + ", em minutos são: " + minutos +  ", e em segundos são: " + segundos)
+}
+```
 ## 11-
 ```
 fun main() {
