@@ -1,7 +1,7 @@
 # Atividade--Lista-02
 
 ## 01-
-
+```
 fun main() {
 
     // Solicita o primeiro número
@@ -23,9 +23,9 @@ fun main() {
         println("Erro: por favor, digite apenas números válidos.")
     }
 }
-
+```
 ## 02-
-
+```
 fun main() {
 
     // Solicita o primeiro nome
@@ -46,9 +46,9 @@ fun main() {
         println("Erro: você não digitou um nome válido.")
     }
 }
-
+```
 ## 03-
-
+```
 fun main() {
 
     println("Digite o primeiro número:")
@@ -65,9 +65,9 @@ fun main() {
     println("Multiplicação: $multiplicacao")
     println("Divisão: $divisao")
 }
-
+```
 ## 04-
-
+```
 fun main() {
 
     println("Digite o lado do quadrado:")
@@ -78,9 +78,9 @@ fun main() {
     println("A área do quadrado é igual: $area")
     
 }
-
+```
 ## 05-
-
+```
 fun main() {
 
     println("Digite a base do triângulo:")
@@ -94,7 +94,7 @@ fun main() {
     println("A área do triângulo é igual: $area")
     
 }
-
+```
 ## 07-
 
 ```
