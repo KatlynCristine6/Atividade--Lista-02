@@ -175,6 +175,24 @@ fun main() {
     print("Em horas são: " + horas + ", em minutos são: " + minutos +  ", e em segundos são: " + segundos)
 }
 ```
+## 10-
+```
+import kotlin.math.sqrt
+import kotlin.math.pow
+
+fun main() {
+
+    val x1 = readln().toDouble()
+    val y1 = readln().toDouble()
+
+    val x2 = readln().toDouble()
+    val y2 = readln().toDouble()
+
+    val distancia = sqrt((x2 - x1).pow(2) + (y2 - y1).pow(2))
+
+    println("A distancia entre os pontos Ã©: " + distancia)
+}
+```
 ## 11-
 ```
 fun main() {
