@@ -413,6 +413,32 @@ var soma_dos_quadrados = (A * A) + (B *B)  + (C * C)
 println("O valor das somas dos quadrados é: $soma_dos_quadrados")
 }
 ```
+## 23-
+```
+fun main()
+{
+    var num1 = readln().toDouble()
+    var num2 = readln().toDouble()
+    val soma = num1 + num2
+    val sub = num1 - num2
+    val mult = num1 * num2
+    val div = num2 / num2
+    print(" A soma é: " + soma + ", a subtração é: " + sub + ", a multiplicação é: " + mult + ", a divisão é: " + div)
+   
+   
+}
+```
+## 24-
+```
+fun main()
+{
+    var raio = readln().toDouble()
+    var PI = 3.14159
+    var raio3 = raio * raio * raio
+    val volume = 4/3 * PI * raio3
+    print("O volume da esfera é: " + volume)
+}
+```
 ## 25-
 ```
 fun main() {
