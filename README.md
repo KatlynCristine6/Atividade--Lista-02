@@ -115,7 +115,7 @@ print("A média final é: ${media}")
 }
 ```
 
-## 17-
+## 11-
 ```
 fun main() {
     print("Digite o primeiro número: ")
