@@ -190,6 +190,25 @@ var valor_real = valor_dolar * cotacao
 println("Valor em real: $valor_real (considerando a cotação de 5.24")
 }
 ```
+
+## 22-
+```fun main() {
+println("Digite o primeiro valor:")
+val A = readLine()!!.toDouble()  
+
+println("Digite o segundo valor:")
+val B = readLine()!!.toDouble()  
+
+println("Digite o terceiro valor:")
+val C = readLine()!!.toDouble()  
+
+
+var soma_dos_quadrados = (A * A) + (B *B)  + (C * C)
+
+
+println("O valor das somas dos quadrados é: $soma_dos_quadrados")
+}
+```
 ## 25-
 ```
 fun main() {
