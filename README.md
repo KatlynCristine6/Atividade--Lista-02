@@ -119,6 +119,26 @@ print("Idade em semanas: ${idade_semanas}")
 
 }
 ```
+
+## 17-
+
+```
+fun main() {
+   
+println("Digite o valor do saco em kg:")
+val peso_saco_kg = readLine()!!.toDouble()
+println("Digite a quantidade que o gato come em gramas:")
+val qtd_diaria_gato_g = readLine()!!.toDouble()
+
+var total_inicial_g = peso_saco_kg * 1000
+var total_consumido_g = qtd_diaria_gato_g * 2 * 5
+var resto_g= total_inicial_g - total_consumido_g
+   
+print("Resto em gramas: ${resto_g}")
+
+}
+```
+
 ## 19-
 
 fun main() {
