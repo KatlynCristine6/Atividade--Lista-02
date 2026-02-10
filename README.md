@@ -167,6 +167,23 @@ fun main() {
     print("D = $D")
 }
 ```
+## 12-
+```
+fun main() {
+    print("Digite o valor do custo de fábrica de um carro:")
+    val fabrica = readLine()!!.toIntOrNull()?: 0
+    
+    print("Digite a porcentagem do distribuidor:")
+    val porcentagem_dist = readLine()!!.toIntOrNull()?: 0
+    
+    print("Digite a porcentagem calculada pelo imposto:")
+    val porcentagem_imp = readLine()!!.toIntOrNull()?: 0
+    
+    var custo_final = fabrica + (fabrica * 0.28) + (fabrica * 0.45)
+
+    print("O custo total do distribuidor é de: $custo_final")
+}
+```
 ## 14-
 ```
 fun main() {
