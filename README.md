@@ -95,6 +95,31 @@ fun main() {
     
 }
 
+## 16-
+
+16-
+fun main() {
+   
+println("ano_nascimento")
+val ano_nascimento = readLine()!!.toDouble()
+println("ano_atual")
+val ano_atual = readLine()!!.toDouble()
+
+var idade_anos = ano_atual - ano_nascimento
+var idade_meses = idade_anos * 12
+var idade_dias =  idade_anos * 365
+var idade_semanas = idade_dias / 7
+   
+print("Idade em anos: ${idade_anos}")
+
+print("Idade em meses: ${idade_meses}")
+
+print("Idade em dias: ${idade_dias}")
+
+print("Idade em semanas: ${idade_semanas}")
+
+}
+
 ## 19-
 
 fun main() {
