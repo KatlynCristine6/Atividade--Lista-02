@@ -146,7 +146,23 @@ print("A média final é: ${media}")
 
 }
 ```
+## 08-
+```
+fun main() {
+    print("Digite a primeira nota:")
+    val nota1 = readLine()!!.toIntOrNull()?: 0
+    
+    print("Digite a segunda nota:")
+    val nota2 = readLine()!!.toIntOrNull()?: 0
+    
+    print("Digite a terceira nota:")
+    val nota3 = readLine()!!.toIntOrNull()?: 0
+    
+    var media_final = (nota1 + nota2 + nota3) / 3
 
+    print("O resultado da média é: $media_final")
+}
+```
 ## 11-
 ```
 fun main() {
