@@ -137,3 +137,17 @@ fun main() {
     println("O volume da caixa retangular é igual: $volume centímetros cúbicos")
     
 }
+
+## 21-
+'''
+fun main() {
+println("Digite um valor em dólar para aa conversão:")
+val valor_dolar = readLine()!!.toDouble()  
+
+println("Digite um valor da cotação do dólar:")
+val cotacao = readLine()!!.toDouble()  
+
+var valor_real = valor_dolar * cotacao
+println("Valor em real: $valor_real (considerando a cotação de 5.24")
+}
+'''
