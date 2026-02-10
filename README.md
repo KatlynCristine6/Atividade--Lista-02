@@ -230,6 +230,33 @@ fun main() {
     print("O custo total do distribuidor é de: $custo_final")
 }
 ```
+## 13-
+```
+import java.util.Scanner
+
+fun main() {
+    val sc = Scanner(System.`in`)
+
+    val a = sc.nextDouble()
+    val b = sc.nextDouble()
+    val c = sc.nextDouble()
+    val d = sc.nextDouble()
+    val e = sc.nextDouble()
+    val f = sc.nextDouble()
+
+    val den = a * e - b * d
+
+    if (den != 0.0) {
+        val x = (c * e - b * f) / den
+        val y = (a * f - c * d) / den
+
+        println("x = $x")
+        println("y = $y")
+    } else {
+        println("Sem solução única")
+    }
+}
+```
 ## 14-
 ```
 fun main() {
