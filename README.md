@@ -130,22 +130,7 @@ fun main() {
 ## 07-
 
 ```
-fun main() {
-   
-println("Digite a nota 1")
-val nota1 = readLine()!!.toDouble()
-println("Digite a nota 2")
-val nota2 = readLine()!!.toDouble()
-println("Digite a nota 3")
-val nota3 = readLine()!!.toDouble()
 
-var media = (nota1 + nota2 + nota3) / 3
-
-   
-print("A média final é: ${media}")
-
-}
-```
 ## 08-
 ```
 fun main() {
